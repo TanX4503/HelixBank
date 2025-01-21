@@ -1,0 +1,42 @@
+Welcome to Helix Banks!
+
+██╗  ██╗███████╗██╗     ██╗██╗  ██╗    ██████╗  █████╗ ███╗   ██╗██╗  ██╗                            
+██║  ██║██╔════╝██║     ██║╚██╗██╔╝    ██╔══██╗██╔══██╗████╗  ██║██║ ██╔╝                            
+███████║█████╗  ██║     ██║ ╚███╔╝     ██████╔╝███████║██╔██╗ ██║█████╔╝                             
+██╔══██║██╔══╝  ██║     ██║ ██╔██╗     ██╔══██╗██╔══██║██║╚██╗██║██╔═██╗                             
+██║  ██║███████╗███████╗██║██╔╝██╗     ██████╔╝██║  ██║██║ ╚████║██║  ██╗                            
+╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝ ╚═╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝                            
+                                                                                                    
+I see that you have installed our Helix Banking Application.
+
+Let me walk you through the setup procedure and teach you how to use our app:
+1. Unpack this ZIP file
+2. In case you had installed our app before, I request you to delete the old installation folder and the C:\HelixTempFiles folder.
+3. You are now requested to download the required modules and compilers to execute the application. These are listed at the end of this document.
+4. Now that that's out of the way, run the setup.py file present in the installation to setup the required connectivity files. Enter the path of the installation folder when asked for it while setting up the required files.
+5. Double click the main.py file to launch the Helix Banking Application, you may create a shortcut of this file to access it from anywhere on your device.
+6. Enter your Login Credentials to open the Helix Banking Application.
+
+Thank you for choosing Helix Banks. We wish you a good day ahead.
+
+Signing off,
+Tanish Jain
+Lead Developer
+Helix Banking
+
+SOFTWARE REQUIREMENTS
+1.Windows Operating System (7/8/10/11)
+2.Python 3.x Installation and its Preinstalled modules
+3.MySQL Server Installation
+4.Python 3.x Modules (Installable via PIP) : The required command prompt commands are listed alongside the module names
+a.	‘maskpass’ module - pip install maskpass
+b.	‘mysql.connector’ module - pip install mysql-connector-python
+c.	‘PIL’ (pillow) module - pip install pillow
+d.	‘customtkinter’ module - pip install customtkinter
+e.	‘CTkMessagebox’ module - pip install CTkMessageBox
+
+
+If you are reading this from the GitHub Version:
+Kindly add the required database connection information in the setupscript.py script along with the ip address of the admin user as required
+You may setup the database as per the 'databaseresetutility.py' file
+Thank You!
